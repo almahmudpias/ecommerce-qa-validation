@@ -5,15 +5,17 @@
 ![Test Cases](https://img.shields.io/badge/Test%20Cases-40%2F40-blue)
 ![Critical Defects](https://img.shields.io/badge/Critical%20Defects-3-red)
 ![Release Status](https://img.shields.io/badge/Release-Not%20Recommended-red)
-##Project Summary:
-Led the end-to-end QA cycle for a full-stack E-Commerce Web Platform, executing 40 test cases across 5 key modules with a 92.5% pass rate. Identified and documented 3 critical defects blocking production release, including checkout API failure, authentication bypass, and cart regression issues. Delivered evidence-based reporting and actionable recommendations to ensure platform stability, security, and release readiness.
+---
+**Project Summary:**  
+Led the **end-to-end QA cycle** for a full-stack E-Commerce Web Platform, executing 40 test cases across 5 key modules with a **92.5% pass rate**. Identified and documented **3 critical defects** blocking production release, including checkout API failure, authentication bypass, and cart regression issues. Delivered evidence-based reporting and actionable recommendations to ensure platform stability, security, and release readiness.  
 
-This repository contains the complete Quality Assurance (QA) artifacts for the v1.1.2 release, including test plans, execution reports, defect logs, screenshots, and summary analyses. It demonstrates proficiency in QA engineering, defect management, risk assessment, and stakeholder reporting.
+This repository contains the complete **Quality Assurance (QA) artifacts** for the v1.1.2 release, including **test plans, execution reports, defect logs, screenshots, and summary analyses**. It demonstrates proficiency in QA engineering, defect management, risk assessment, and stakeholder reporting.
 
-Testing Timeline: 1-Week Test Cycle (Nov 4–11, 2025)
-Environment: QA Environment v1.1.2
-Test Data: Synthetic user profiles & payment data
+**Testing Timeline:** 1-Week Test Cycle (Nov 4–11, 2025)  
+**Environment:** QA Environment v1.1.2  
+**Test Data:** Synthetic user profiles & payment data  
 
+---
 
 
 This repository contains the complete **Quality Assurance (QA) artifacts** for the v1.1.2 release of the E-Commerce Web Platform. It documents the full QA lifecycle—**test planning, manual execution, defect tracking, and reporting**—to ensure the platform is functional, secure, and production-ready.

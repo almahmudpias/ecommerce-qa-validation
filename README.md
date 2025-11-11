@@ -32,7 +32,7 @@ This repository contains the complete **Quality Assurance (QA) artifacts** for t
 
 A total of **10 defects** were identified and tracked, with severity breakdown:  
 
-![Defect Severity Pie Chart](https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Critical','Major','Minor'],datasets:[{data:[3,4,3],backgroundColor:['#dc3545','#ffc107','#20c997']}]}})
+![Defect Severity Pie Chart](https://quickchart.io/chart?c=%7B"type":"doughnut","data"%3A%7B"labels"%3A%5B"Critical"%2C"Major"%2C"Minor"%5D,"datasets"%3A%5B%7B"data"%3A%5B3%2C4%2C3%5D,"backgroundColor"%3A%5B"%23dc3545","%23ffc107","%2320c997"%5D%7D%5D%7D%7D)
 
 ### Primary Failing Areas & Root Cause Analysis
 

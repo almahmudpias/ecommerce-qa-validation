@@ -74,11 +74,11 @@ A total of **10 defects** were identified. The primary failing areas were the **
 
 1. **Checkout API 500 Error**  
    - A critical backend issue (`NullPointerException` in `PaymentProcessorService`) preventing any successful transactions.  
-   - **Evidence:** ![Checkout API 500 Error](evidence 1.png)
+   - **Evidence:** ![Checkout API 500 Error](evidence 1.jpg)
 
 2. **Authentication Bypass**  
    - A major security flaw where the system grants logged-in status even with an invalid password.  
-   - **Evidence:** ![Authentication Bypass](evidence 2.png)
+   - **Evidence:** ![Authentication Bypass](evidence 2.jpg)
 
 3. **Cart Regression Failure**  
    - The "Add to Cart" function failed post-patch, demonstrating instability in core functionality.  

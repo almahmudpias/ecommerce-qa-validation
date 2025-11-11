@@ -1,5 +1,9 @@
 # 🛒 E-Commerce Web Platform - QA Validation Report (v1.1.2)
 
+![Pass Rate](https://img.shields.io/badge/Pass%20Rate-92.5%25-brightgreen)
+![Test Cases](https://img.shields.io/badge/Test%20Cases-40%2F40-blue)
+![Critical Defects](https://img.shields.io/badge/Critical%20Defects-3-red)
+
 This repository contains the complete **Quality Assurance (QA) artifacts** for the v1.1.2 release of the E-Commerce Web Platform. It documents the full QA lifecycle—**test planning, manual execution, defect tracking, and reporting**—to ensure the platform is functional, secure, and production-ready.
 
 ---
@@ -66,6 +70,7 @@ A total of **10 defects** were identified and tracked, with severity breakdown:
 | ECOM-145 | Product | Critical | Price mismatch | Open |
 
 ---
+
 ## 📈 Defect Analysis & Recommendations
 
 A total of **10 defects** were identified. The primary failing areas were the **Checkout Process** and **Authentication**, confirming the platform is **NOT ready for release** (Go/No-Go Recommendation: **NO GO**).
@@ -74,14 +79,16 @@ A total of **10 defects** were identified. The primary failing areas were the **
 
 1. **Checkout API 500 Error**  
    - A critical backend issue (`NullPointerException` in `PaymentProcessorService`) preventing any successful transactions.  
-   - **Evidence:** ![Checkout API 500 Error](evidence 1.jpg)
+   - **Evidence:** ![Checkout API 500 Error](Screenshots/checkout_500_error.png)
 
 2. **Authentication Bypass**  
    - A major security flaw where the system grants logged-in status even with an invalid password.  
-   - **Evidence:** ![Authentication Bypass](evidence 2.jpg)
+   - **Evidence:** ![Authentication Bypass](Screenshots/auth_bypass_evidence.png)
 
 3. **Cart Regression Failure**  
    - The "Add to Cart" function failed post-patch, demonstrating instability in core functionality.  
+
+---
 
 ## 🛠 Next Steps & Recommendations
 
@@ -91,7 +98,6 @@ A total of **10 defects** were identified. The primary failing areas were the **
 4. **📊 Go/No-Go Recommendation:** **Release is NOT recommended**. Follow-up QA cycle required after critical fixes.
 
 ---
-
 
 ## 📝 Prepared By
 

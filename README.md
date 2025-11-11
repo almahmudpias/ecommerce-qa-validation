@@ -66,6 +66,22 @@ A total of **10 defects** were identified and tracked, with severity breakdown:
 | ECOM-145 | Product | Critical | Price mismatch | Open |
 
 ---
+## 📈 Defect Analysis & Recommendations
+
+A total of **10 defects** were identified. The primary failing areas were the **Checkout Process** and **Authentication**, confirming the platform is **NOT ready for release** (Go/No-Go Recommendation: **NO GO**).
+
+### Primary Blockers
+
+1. **Checkout API 500 Error**  
+   - A critical backend issue (`NullPointerException` in `PaymentProcessorService`) preventing any successful transactions.  
+   - **Evidence:** ![Checkout API 500 Error](Screenshots/checkout_500_error.png)
+
+2. **Authentication Bypass**  
+   - A major security flaw where the system grants logged-in status even with an invalid password.  
+   - **Evidence:** ![Authentication Bypass](Screenshots/auth_bypass_evidence.png)
+
+3. **Cart Regression Failure**  
+   - The "Add to Cart" function failed post-patch, demonstrating instability in core functionality.  
 
 ## 🛠 Next Steps & Recommendations
 
@@ -76,15 +92,6 @@ A total of **10 defects** were identified and tracked, with severity breakdown:
 
 ---
 
-## 📸 Evidence
-
-![Checkout API 500 Error](Screenshots/checkout_500_error.png)  
-*Checkout API failing with 500 Internal Server Error.*
-
-![Authentication Bypass](Screenshots/auth_bypass_evidence.png)  
-*Successful login with incorrect password – critical security flaw.*
-
----
 
 ## 📝 Prepared By
 
